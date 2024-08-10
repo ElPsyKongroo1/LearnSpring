@@ -7,7 +7,7 @@ Projects are all built in a similar fashion. Here is a step-by-step guide:
 - Change directories into selected project directory directory (Ex: /CreateSimpleSpring)
 - Run .\mvnw.cmd spring-boot:run on Windows or ./mvnw spring-boot:run on Linux/Mac
 
-## Projects
+## Learning Projects
 ### RestfulWebService: 
 - Test project that builds, compiles, and runs on localhost:8080/greeting endpoint
 - Uses RestfulWebService guide from Spring website
@@ -18,6 +18,7 @@ Projects are all built in a similar fashion. Here is a step-by-step guide:
 
 ### CreateSimpleSpring: 
 - Test project that builds, compiles, and runs on localhost:8080/hello endpoint
+- Take Get parameters from user and returns a String as a JSON response
 - Uses quick-start guide from Spring website
 - To try out this project:
   - Run build commands in Build Projects section
